@@ -2,6 +2,7 @@
 
 This project is a personal portfolio website for Aryaman, showcasing his skills, education, experience, and projects in the field of data science.
 
+Click [Here](https://portfolio-absterjr.vercel.app/) to view.
 ## Table of Contents
 
 - [Description](#description)
