@@ -7,7 +7,7 @@ const Bio = () => {
       <div className={`container mx-auto flex flex-wrap items-center justify-between ${styles.bioContainer}`}>
         <div className={`w-full md:w-1/2 mb-8 md:mb-0 ${styles.bioImageWrapper}`}>
           <img
-            src="Profile.jpg"
+            src="/Profile.jpg"
             alt="Your Name"
             className={`${styles.bioImage} w-full rounded-lg`}
           />
