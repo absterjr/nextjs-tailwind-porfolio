@@ -1,0 +1,83 @@
+.experienceSection {
+    padding: 80px 0;
+    text-align: center;
+    background: linear-gradient(to right, #000000, #0e0120);
+    color:white;
+  }
+  
+  .experienceContainer {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    padding: 2em 0;
+    background: linear-gradient(to right, #000000, #0e0120);
+
+  }
+  
+  .verticalLine {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 40px;
+    background: var(--line-color);
+    color:white;
+  }
+  
+  .content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    text-align: left;
+    background: linear-gradient(to right, #14072e, #073569);
+    margin-top: 35px;
+    transition: transform 0.3s ease-in-out; /* Add transition property */
+
+  }
+  .container:hover .content {
+    transform: scale(1.05); /* Scale up the content on hover */
+  }
+  .content h3 {
+    display: flex;
+    align-items: center;
+
+  }
+  .content p {
+    margin-bottom: 10px;
+  }
+  
+  .content ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .content ul li {
+    margin-bottom: 5px;
+  }
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .skills {
+    margin-top: 20px;
+
+  }
+  
+  .skillList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skillItem {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  

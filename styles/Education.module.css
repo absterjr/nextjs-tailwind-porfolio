@@ -1,0 +1,77 @@
+.educationSection {
+    padding: 80px 0;
+    background: linear-gradient(to right, #000000, #00022b);
+  }
+  .educationSection h2 {
+    color: #ffffff; /* Set the heading color to white */
+  }
+  .sectionHeading {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .timeline {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    padding: 2em 0;
+  }
+  
+  .verticalLine {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #ffffff;
+  }
+  
+  .container {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.8s, transform 0.8s;
+    background: linear-gradient(to bottom, #131329, #091d33); /* Gradient background */
+    color: #fff;
+  }
+  
+  .container.animate {
+    opacity: 1;
+    transform: translateY(0);
+
+    color: #fff;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 4px solid #080924;
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 35px;
+
+transform: translateX(-10%);
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #1f0636;
+  }
+  
+  .content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+    background: linear-gradient(to bottom, #162c2c, #21103d); /* Gradient background */
+    color: #fff;
+  }
+  

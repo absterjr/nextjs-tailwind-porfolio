@@ -1,0 +1,44 @@
+.bioSection {
+  background: linear-gradient(to right, #000000, #010220);
+  padding: 40px 0;
+  color: #ffffff; /* Added */
+}
+
+.bioContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.bioImageWrapper {
+  width: 300px;
+  margin-right: 40px; /* Added */
+}
+
+.bioText {
+  max-width: 800px;
+}
+
+.bioImage {
+  width: 100%;
+  height: auto;
+  border-radius: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: filter 0.3s ease-in-out;
+}
+
+.bioImage:hover {
+  filter: grayscale(100%);
+}
+
+.bioTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bioDescription {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

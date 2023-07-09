@@ -1,0 +1,43 @@
+/* Navbar.module.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, #000000, #010213);
+  z-index: 999;
+  margin: auto;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.navLinks {
+  display: flex;
+  align-items: right;
+}
+
+.navLinks a {
+  margin-left: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cvLink {
+  margin-left: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cvLink:hover {
+  text-decoration: underline;
+}

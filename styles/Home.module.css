@@ -1,0 +1,64 @@
+.homeSection {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: bold;
+  color: #44d800;
+  margin-bottom: 10px;
+}
+
+.position {
+  font-size: 36px;
+  font-weight: bold;
+  color: #00ff6a;
+  margin-bottom: 30px;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  color:white;
+}
+
+.socialLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 60%;
+  background-color: #000000;
+  margin: 8px;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.socialLink:hover {
+  background-color: #FF0000;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}

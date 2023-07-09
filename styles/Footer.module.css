@@ -1,0 +1,25 @@
+/* Footer.module.css */
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .info {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .sourceCode {
+    font-size: 14px;
+  }
+  
+  .sourceCodeLink {
+    color: #fff;
+  }
+  
+  .sourceCodeLink:hover {
+    text-decoration: underline;
+  }
+  

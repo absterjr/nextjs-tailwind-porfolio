@@ -1,0 +1,63 @@
+.skillsSection {
+  padding: 80px 0;
+  text-align: center;
+  background: linear-gradient(to right, #000000, #0e0120);
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #000000, #0e0120);
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.skillCategory {
+  margin: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, #000914, #00154d);
+
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skillCategory h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:white;
+  
+}
+
+.skillList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillItem {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.skillItem:hover {
+  background-color: #eef0f2;
+  transform: scale(1.1);
+}
+
+
+
+.skillsSection h2 {
+  color: #ffffff; /* Set the heading color to white */
+}
